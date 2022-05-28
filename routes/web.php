@@ -15,5 +15,5 @@ use App\Http\Controllers\ContactController;
 |
 */
 
-Route::get('/add', [ContactController::class, 'index']);
-Route::post('/add', [ContactController::class, 'create']);
+Route::get('/', [ContactController::class, 'index']);
+Route::post('/', [ContactController::class, 'create']);

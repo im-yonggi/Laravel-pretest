@@ -16,7 +16,7 @@
 
 <body>
   <h1>トップページ</h1>
-  <form action="/add" method="post">
+  <form action="/" method="post">
     @csrf
     <label>氏名<br><input type="text" name="name"></label><br>
     <label>メールアドレス<br><input type="email" name="email"></label><br>
